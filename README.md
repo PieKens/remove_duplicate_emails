@@ -8,9 +8,13 @@ The language of my choice was Java for this task, I created three java classes t
 2. create duplicates of emails (1) and write them to a new txt file (createEmailDuplicates.java)
 3. remove the duplicates from list (2) and save the result in a new txt file (removeDuplicates.java)
 
-I have created a simpleRun.java class to run all classes and print the elapsed time to the user to indicate that it can run in under 1 second.
-In order to execute you can either run each class sequenced (1. createRandomMail, 2. createEmailDuplicates, 3. removeDuplicates) for it self or just run the simpleRun.java to execute all classes with the elapsed time print to screen.
+The simpleRun.java class runs all three classes and prints the execution time.
+Alternatively, each class can be run sequentially as follows:
+1. createRandomMail
+2. createEmailDuplicates
+3. removeDuplicates
 
 
 Written in IntelliJ IDEA 2021.2.3 (Community Edition)
+
 Project SDK: java jdk-17.0.1
